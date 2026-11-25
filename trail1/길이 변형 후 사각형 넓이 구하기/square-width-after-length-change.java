@@ -13,8 +13,8 @@ public class Main {
         b = b * 3;
         System.out.println(b);
 
-        a *= b;
-        System.out.println(a);
+   
+        System.out.println(a * b);
     
     }    
 }
