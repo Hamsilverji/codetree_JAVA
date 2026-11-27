@@ -4,24 +4,25 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
 
-        String z = sc. next();
+        char z; 
+        z = sc.next().charAt(0);
 
-        if ( z.equals("S")) {
+        if(z == 'S') 
             System.out.println("Superior");
-        }
-        else if ( z.equals ("A")) {
+        
+        else if(z == 'A') 
             System.out.println("Excellent");
-        }
-         else if  (z.equals ("B")) {
+        
+         else if(z == 'B') 
             System.out.println("Good");
-        }
-         else if ( z.equals ("C")) {
+        
+         else if(z == 'C') 
             System.out.println("Usually");
-        }
-          else if ( z.equals( "D")) {
+        
+        else if(z == 'D') 
             System.out.println("Effort");
-        }
-          else 
+        
+        else 
             System.out.println("Failure");
         }
 }
